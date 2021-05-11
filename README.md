@@ -1,6 +1,6 @@
 # NSMBW GAKENOKO fix
 
-EN_GAKE_NOKO (Cliff Koopa) is an unused enemy in New Super Mario Bros. Wii. that still has some code leftover in the game. It's meant to hang from cliff edges and shimmy across them.
+EN_GAKE_NOKO (Cliff Koopa) is an unused enemy in New Super Mario Bros. Wii that still has some code leftover in the game. It's meant to hang from cliff edges and shimmy across them.
 
 Unfortunately, although most of its code found its way into the final game's binaries, its constructor was replaced by one that simply deletes the actor as soon as it's spawned. This is a [Kamek](https://github.com/Treeki/Kamek) project written by [Ninji](https://github.com/Treeki/) and [Skawo](https://github.com/skawo) that replaces the this ctor with one that allows the enemy to spawn correctly.
 
